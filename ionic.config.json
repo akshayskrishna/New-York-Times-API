@@ -1,0 +1,7 @@
+{
+  "name": "nytimes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
