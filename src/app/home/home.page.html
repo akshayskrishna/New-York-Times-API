@@ -1,6 +1,6 @@
 <ion-header class="card" [translucent]="true">
   <ion-toolbar class="card">
-    <ion-title >
+    <ion-title>
       NYTimes API
     </ion-title>
   </ion-toolbar>
@@ -13,18 +13,18 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-card class="card" *ngFor="let item of data" >
+  <ion-card class="card" *ngFor="let item of data">
     <ion-card-header>
       {{item.source}}
       <ion-card-title>{{ item.title }}</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      Location: {{item.geo_facet[0]}}<br/>
-      {{ item.abstract }}<br/><br/>
-      Published: {{item.published_date}}<br/>
-      <a  target = "_blank" [href] = "item.url"><ion-button class="button" expand="block"> Read More</ion-button></a>
+      Location: {{item.geo_facet[0]}}<br />
+      {{ item.abstract }}<br /><br />
+      Published: {{item.published_date}}<br />
+      <a target="_blank" [href]="item.url"
+        ><ion-button class="button" expand="block"> Read More</ion-button></a
+      >
     </ion-card-content>
   </ion-card>
-
-  
 </ion-content>
