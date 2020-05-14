@@ -1,5 +1,5 @@
 # New-York-Times-API
-An Ionic application that fetches the Top Shared News section from New York Time API. 
+An Ionic application that fetches the "Top Shared News" section from New York Time API. 
 Best Viewed on phones. 
 Link: https://ionicapp-c07bf.firebaseapp.com/
 
@@ -11,4 +11,4 @@ API Calls fetches:
   1. Article Title
   2. Article Published date
   3. Article Location
-  4. A read-more URL to original article.
+  4. A URL to original article.
